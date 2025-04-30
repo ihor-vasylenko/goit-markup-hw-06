@@ -22,11 +22,11 @@
   <body>
     <header class="page-header">
       <div class="container header-container">
-        <nav class="navigation header-nav">
-          <a href="./index.html" class="link logo-header"
+        <nav class="header-nav">
+          <a href="./index.html" class="logo logo-header"
             >Web<span class="studio-navyblue">Studio</span></a
           >
-          <ul class="header-nav">
+          <ul class="header-list">
             <li>
               <a href="./index.html" class="navigation-links current">Studio</a>
             </li>
@@ -37,22 +37,27 @@
         <address class="contact-information">
           <ul class="contact-info-header">
             <li>
-              <a class="link contact-link" href="mailto:info@devstudio.com"
+              <a class="contact-link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="link contact-link" href="tel:+110001111111"
+              <a class="contact-link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
           </ul>
         </address>
+        <button class="mobile-menu-button">
+          <svg class="mobile-menu-icon" width="24" height="24">
+            <use href="/images/icons.svg#icon-mobile-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
       <!-- #region main banner -->
-      <section class="effective-solution">
+      <section class="hidden" class="effective-solution">
         <div class="container">
           <h1 class="title-banner">Effective Solutions for Your Business</h1>
           <button type="button" class="order-service-button">
@@ -63,7 +68,7 @@
       <!-- #endregion main banner -->
 
       <!-- #region values -->
-      <section class="section-values">
+      <section class="hidden" class="section-values">
         <div class="container">
           <h2 class="visually-hidden">Values</h2>
           <ul class="values-list">
@@ -121,7 +126,7 @@
       <!-- #endregion values -->
 
       <!-- #region our team -->
-      <section class="section-our-team">
+      <section class="hidden" class="section-our-team">
         <div class="container">
           <h2 class="title-our-team">Our Team</h2>
           <ul class="list-our-team">
@@ -299,7 +304,7 @@
       <!-- #endregion our team -->
 
       <!-- #region our portfolio -->
-      <section class="section-our-portfolio">
+      <section class="hidden" class="section-our-portfolio">
         <div class="container">
           <h2 class="title-portfolio">Our Portfolio</h2>
           <ul class="list-our-portfolio">
@@ -414,13 +419,13 @@
           </ul>
         </div>
       </section>
-      <!-- #endregion our portfolio -->
     </main>
+    <!-- #endregion our portfolio -->
 
     <footer class="bottom">
-      <div class="container footer-container">
+      <div class="hidden" class="container footer-container">
         <div class="promo-message">
-          <a href="./index.html" class="link logo-footer"
+          <a href="./index.html" class="logo-footer"
             >Web<span class="studio-footer">Studio</span></a
           >
           <p class="footer-text">
@@ -483,7 +488,7 @@
       </div>
     </footer>
     <div class="modal-overlay is-open">
-      <div class="modal">
+      <div class="hidden" class="modal">
         <button type="button" class="button-close-modal">
           <svg class="icon-markno" width="8" height="8">
             <use href="./images/icons.svg#icon-markno"></use>
