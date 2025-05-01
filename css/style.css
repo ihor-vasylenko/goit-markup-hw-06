@@ -433,8 +433,83 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/people-office\@2.jpg);
+      url(../images/people-office@2x.jpg);
+  }
+}
+
+.title-banner {
+  max-width: 216px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: #ffffff;
+
+  margin: 0 auto;
+  margin-bottom: 72px;
+}
+
+.order-service-button {
+  background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+
+  display: block;
+
+  border: none;
+  border-radius: 4px;
+
+  min-width: 169px;
+  height: 56px;
+
+  padding: 16px 32px;
+  margin: 0 auto;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.order-service-button:hover,
+.order-service-button:focus {
+  background-color: #404bbf;
+}
+
+@media screen and (min-width: 768px) {
+  .effective-solution {
+    padding: 112px 0;
+    max-width: 768px;
+  }
+
+  .title-banner {
+    max-width: 496px;
+    font-size: 56px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .effective-solution {
+    padding: 188px 0;
+    max-width: 1440px;
+  }
+
+  .title-banner {
+    max-width: 496px;
+    line-height: 107%;
+    margin-bottom: 48px;
   }
 }
 
 /* #endregion main banner */
+
+/* #region values */
+
+/* #endregion values */
