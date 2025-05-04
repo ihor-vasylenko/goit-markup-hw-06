@@ -1010,6 +1010,7 @@ a {
   .footer-container {
     gap: 0;
     padding: 0;
+    width: auto;
   }
 
   .promo-message {
