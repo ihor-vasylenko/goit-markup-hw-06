@@ -866,13 +866,13 @@ a {
   text-align: center;
 }
 
-.social-link-icon {
+.list-social-media-footer .social-link-icon {
   width: 40px;
   height: 40px;
 }
 
-.social-link-icon:hover,
-.social-link-icon:focus {
+.list-social-media-footer .social-link-icon:hover,
+.list-social-media-footer .social-link-icon:focus {
   background-color: #31d0aa;
 }
 
